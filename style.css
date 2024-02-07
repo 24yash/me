@@ -2,7 +2,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #252a34;
+  background-color: #0f1823;
   /* background-color: #03001C; */
 }
 
@@ -189,7 +189,7 @@ nav a.active {
   text-decoration: none; /* Remove the underline */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
   .link {
     width: 80%; /* each box will cover 80% of the screen */
     margin: 1em auto; /* centers the box and adds margin to the top and bottom */
