@@ -57,17 +57,20 @@ body {
   color: #333;
   margin-top: 20%;
 }
+
 .name,
 .title,
 .description {
   display: block;
 }
 .title {
+  margin-bottom: 0px;
   font-size: 1.8em;
   color: #333;
 }
 
 .description {
+  margin-top: 0px;
   font-size: 1.2em;
   color: #666;
 }
