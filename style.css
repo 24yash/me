@@ -3,22 +3,22 @@ body {
   margin: 0;
   padding: 0;
   background-color: #252a34;
-  /* background-color: #191919; */
+  /* background-color: #03001C; */
 }
 
 .nav-links {
   text-align: right;
   position: absolute;
   width: 98%;
-  padding-right: 20px; /* Adding padding to the right edge */
+  /* padding-right: 20px;  */
   z-index: 2;
 }
 
 .nav-links ul {
   list-style: none;
   margin: 0;
-  margin-top: 1%;
-  margin-right: 2%;
+  margin-top: 2%;
+  /* margin-right: 2%; */
   padding: 0;
 }
 
@@ -85,7 +85,7 @@ section {
 }
 
 section h1 {
-  color: aliceblue;
+  color: white;
 }
 
 section h2 {
@@ -106,7 +106,7 @@ section h2 {
 nav a {
   color: #333; /* Change this to whatever color you want */
   text-decoration: none; /* Removes the underline */
-  margin: 0 10px; /* Adds some space around the links */
+  /* margin: 0 10px; */
   transition: color 0.3s ease; /* Makes the color change smoothly */
 }
 
@@ -121,9 +121,9 @@ nav a.active {
 
 /* Media Query for Small Screens (Mobile) */
 @media only screen and (max-width: 768px) {
-  .nav-links {
-    text-align: center; /* Center-align navigation links on small screens */
-  }
+  /* .nav-links {
+    text-align: center;
+  } */
   .name {
     margin: 0;
   }
@@ -137,7 +137,7 @@ nav a.active {
   .nav-links li {
     margin: 2px;
     font-size: 1.1em;
-    padding: 10px 1px; /* Add margin between navigation links */
+    /* padding: 10px 1px;  */
   }
 }
 
