@@ -86,6 +86,7 @@ section {
 
 section h1 {
   color: white;
+  font-size: 2.2em;
 }
 
 section h2 {
@@ -96,7 +97,7 @@ section h2 {
   background-color: #f8f8f8;
   border-radius: 10px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 60px 0;
 }
 
 .project h3 {
