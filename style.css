@@ -59,10 +59,13 @@ nav a.active {
   /* .name {
     margin: 0;
   } */
+  .nav-links ul {
+    margin-top: 0;
+  }
   .nav-links {
     text-align: right;
     background-color: #0e0e0e; /* Change this to the color you want */
-    padding-bottom: 10px;
+    padding: 10px 0;
   }
   .nav-links li {
     margin: 2px;
@@ -194,9 +197,10 @@ section h2 {
 }
 
 .project p {
-  font-family: "Roboto", sans-serif;
-
-  font-size: 1.1em; /* Adjust the font size */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em; /* Adjust the font size */
+  font-weight: 400;
   line-height: 1.6; /* Adjust the line height for better readability */
   color: #333; /* Adjust the font color */
   /* text-align: justify; Align the text to both left and right margins */
